@@ -1,0 +1,27 @@
+{
+  "name": "peerca-keychain",
+  "version": "0.0.0",
+  "description": "keychain support for peerca",
+  "main": "index.js",
+  "dependencies": {
+    "peerca": "^1.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/peerca-keychain.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/peerca-keychain/issues"
+  },
+  "homepage": "https://github.com/mafintosh/peerca-keychain",
+  "keywords": [
+    "peerca",
+    "keychain",
+    "ssl",
+    "client",
+    "cerificate"
+  ]
+}
