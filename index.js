@@ -45,7 +45,7 @@ Keychain.prototype.disable = function(host, cb) {
   if (!cb) cb = noop
   fingerprint(host, function(err, hash) {
     if (err) return cb(err)
-    proc.exec(REMOVE, {env:xtend(process.env, {HASH_CERT:hash.cert, HASH_CA:hash.ca, HOST:HOST})}, function(err) {
+    proc.exec(REMOVE, {env:xtend(process.env, {HASH_CERT:hash.cert, HASH_CA:hash.ca, HOST:host})}, function(err) {
       cb(err)
     })
   })
