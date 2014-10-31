@@ -4,9 +4,14 @@
   "description": "keychain support for peerca",
   "main": "index.js",
   "dependencies": {
-    "peerca": "^1.0.3"
+    "keypress": "^0.2.1",
+    "peerca": "^1.0.3",
+    "single-line-log": "^0.4.1"
   },
   "devDependencies": {},
+  "bin": {
+    "peerca-keychain": "./bin.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/peerca-keychain.git"
