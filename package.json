@@ -1,6 +1,6 @@
 {
   "name": "peerca-keychain",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "keychain support for peerca",
   "main": "index.js",
   "dependencies": {
