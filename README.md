@@ -1,7 +1,7 @@
 # peerca-keychain
 
 Keychain integration for [peerca](https://github.com/substack/peerca).
-Currently only OSX is supported but patches are welcome.
+Currently only OSX is supported but patches are welcome for Windows, Linux support.
 
 ```
 npm install -g peerca-keychain
