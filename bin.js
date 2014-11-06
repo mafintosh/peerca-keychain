@@ -24,7 +24,7 @@ k.list(function(err, keys) {
       })
       .join('')
 
-    log(lines+'\n')
+    log(lines+'\nUse <space> to select/deselect\n')
   }
 
   print()
